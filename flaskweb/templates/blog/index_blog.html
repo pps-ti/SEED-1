@@ -1,0 +1,9 @@
+{% extends 'blog/base.html' %}
+{% block title %}Blog{% endblock %}
+
+{% block content %}
+   <h1>Ini laman Blog!</h1>
+   Balik ke home <a href="{{ url_for('index') }}">Klik</a><br>
+   Masuk ke blog1 <a href="{{ url_for('blog1') }}">Klik</a><br>
+   Masuk ke news <a href="{{ url_for('news') }}">Klik</a>
+{% endblock %}

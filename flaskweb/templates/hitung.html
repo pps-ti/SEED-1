@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flask Web</title>
+  </head>
+
+  <body>
+    <form method="POST">
+      <input name="angka" placeholder="Masukkan angka"><br>
+      <input type="submit">
+    </form><br>
+
+    Hasil dari pangkat tigaya adalah {{ nilai_akhir }}<br><br>
+    
+    <a href="{{ url_for('blog') }}">Masuk ke laman blog</a><br>
+    <a href="{{ url_for('news') }}">Masuk ke laman news</a><br>
+    <a href="{{ url_for('index') }}">Balik ke home</a><br>
+  </body>
+</html>
